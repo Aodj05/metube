@@ -4,14 +4,16 @@ export const lightTheme = {
     text: "white",
     textSoft: "#aaaaaa",
     soft: "#3c77ab",
-    bgMain: "#d3e4f5"
+    bgMain: "#d3e4f5",
+    title: "black"
 }
 
 export const darkTheme = {
     bg: "#004284",
     bgLighter: "#004284",
     text: "darkgrey",
-    textSoft: "#606060",
+    textSoft: "black",
     soft: "#154269",
-    bgMain: "#2b6cad"
+    bgMain: "#2b6cad",
+    title: "white"
 }
