@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import MeTube from "./img/me-logo.png";
+import MeTube from "../img/me-logo.png";
 import HomeIcon from '@mui/icons-material/Home';
 import ExploreOutlinedIcon from '@mui/icons-material/ExploreOutlined';
 import SubscriptionsOutlinedIcon from "@mui/icons-material/SubscriptionsOutlined";
