@@ -5,7 +5,8 @@ export const lightTheme = {
     textSoft: "#aaaaaa",
     soft: "#3c77ab",
     bgMain: "#d3e4f5",
-    title: "black"
+    title: "black",
+    textDesc: "black"
 }
 
 export const darkTheme = {
