@@ -1,6 +1,6 @@
 import React from "react";
 import styled from "styled-components";
-import MeTube from "../img/me-logo.png";
+import MeTube from "./img/me-logo.png";
 import HomeIcon from '@mui/icons-material/Home';
 import ExploreOutlinedIcon from '@mui/icons-material/ExploreOutlined';
 import SubscriptionsOutlinedIcon from "@mui/icons-material/SubscriptionsOutlined";
@@ -17,6 +17,7 @@ import SettingsOutlinedIcon from "@mui/icons-material/SettingsOutlined";
 import FlagOutlinedIcon from "@mui/icons-material/FlagOutlined";
 import HelpOutlineOutlinedIcon from "@mui/icons-material/HelpOutlineOutlined";
 import SettingsBrightnessOutlinedIcon from "@mui/icons-material/SettingsBrightnessOutlined";
+import { Link } from "react-router-dom";
 
 const Container = styled.div`
   flex: 1;
@@ -85,10 +86,12 @@ const Menu = ({ darkMode, setDarkMode }) => {
     return(
         <Container>
             <Wrapper>
+            <Link to="/" style={{textDecoration: "none", color: "inherit"}}>
                 <Logo>
                     <Img src={MeTube} />
                     T u b e
                 </Logo>
+            </Link>
                 <Item>
                     <HomeIcon />
                     Home
