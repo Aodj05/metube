@@ -12,7 +12,7 @@ export const lightTheme = {
 export const darkTheme = {
     bg: "#004284",
     bgLighter: "#004284",
-    text: "darkgrey",
+    text: "#63666A",
     textSoft: "black",
     soft: "#154269",
     bgMain: "#2b6cad",
