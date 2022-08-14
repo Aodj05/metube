@@ -87,8 +87,8 @@ export const sub = async (req, res, next) => {
         const subscribedChannels = user.subscribedUsers;
 
         const list =await Promise.all(
-            subscribedChannels.map((channelId) => {
-                return Video.find({ userId: channelId });
+            subscribedChannels.map(async (channelId) => {
+                return await Video.find({ userId: channelId });
             })
         );
 
