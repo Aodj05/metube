@@ -2,7 +2,7 @@ MeTube
 Youtube clone using:
 -React js, create-react-app
 -MongoDB server
--Firebase serve
+-Firebase server
 ---------------------------------------------------
 Clone repo
 use npm install
