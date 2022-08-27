@@ -1,0 +1,11 @@
+{
+  "files": {
+    "main.js": "/metube/static/js/main.ce467065.js",
+    "static/media/me-logo.png": "/metube/static/media/me-logo.b1e532cd55a00b60ed26.png",
+    "index.html": "/metube/index.html",
+    "main.ce467065.js.map": "/metube/static/js/main.ce467065.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.ce467065.js"
+  ]
+}
